@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "id": "u_eleanor",
+      "name": "Eleanor Vance",
+      "email": "eleanor@library.org",
+      "password": "$2b$10$xsOj3vY6BzbpdoWQfAqzBeHtp/1HHpXMx39YWNPof8EC1UVojAut.",
+      "role": "librarian",
+      "createdAt": "2026-05-29T09:18:38.197Z"
+    },
+    {
+      "id": "u_julian",
+      "name": "Julian Barnes",
+      "email": "julian@member.com",
+      "password": "$2b$10$FWmjWgSkyB9ekuEDR4ToZ.vDdhV4DT3K1IzXmzrhFLXwIBqAAJ0ka",
+      "role": "member",
+      "createdAt": "2026-06-13T09:18:38.309Z"
+    }
+  ],
+  "books": [
+    {
+      "id": "b_1",
+      "title": "The Shadow of the Wind",
+      "author": "Carlos Ruiz Zafón",
+      "isbn": "9780143034902",
+      "category": "Fiction",
+      "quantity": 3,
+      "availableQuantity": 3,
+      "createdAt": "2026-06-18T09:18:38.309Z"
+    },
+    {
+      "id": "b_2",
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "isbn": "9780553380163",
+      "category": "Science",
+      "quantity": 2,
+      "availableQuantity": 2,
+      "createdAt": "2026-06-19T09:18:38.309Z"
+    },
+    {
+      "id": "b_3",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "isbn": "9780441172719",
+      "category": "Sci-Fi",
+      "quantity": 4,
+      "availableQuantity": 4,
+      "createdAt": "2026-06-20T09:18:38.310Z"
+    },
+    {
+      "id": "b_4",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780060935467",
+      "category": "Classics",
+      "quantity": 3,
+      "availableQuantity": 2,
+      "createdAt": "2026-06-21T09:18:38.310Z"
+    },
+    {
+      "id": "b_5",
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "isbn": "9781449373320",
+      "category": "Technology",
+      "quantity": 2,
+      "availableQuantity": 2,
+      "createdAt": "2026-06-22T09:18:38.310Z"
+    }
+  ],
+  "borrows": [
+    {
+      "id": "br_1",
+      "memberId": "u_julian",
+      "bookId": "b_4",
+      "borrowDate": "2026-06-26T09:18:38.310Z",
+      "returnDate": "2026-06-28T09:19:26.210Z",
+      "status": "returned"
+    },
+    {
+      "id": "br_apn3eys5j",
+      "memberId": "u_julian",
+      "bookId": "b_3",
+      "borrowDate": "2026-06-28T09:19:01.330Z",
+      "returnDate": "2026-06-28T09:19:09.170Z",
+      "status": "returned"
+    },
+    {
+      "id": "br_l393ei3ct",
+      "memberId": "u_julian",
+      "bookId": "b_4",
+      "borrowDate": "2026-06-28T09:19:50.315Z",
+      "returnDate": null,
+      "status": "borrowed"
+    }
+  ]
+}

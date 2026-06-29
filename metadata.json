@@ -1,0 +1,6 @@
+{
+  "name": "Library Management System",
+  "description": "A secure full-stack Library Management System with role-based access control, standard books and member databases, and a live REST API sandbox with real-time logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
